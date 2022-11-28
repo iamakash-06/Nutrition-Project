@@ -1,0 +1,79 @@
+Nutrients,Source,DSym
+Vitamin-A,Milk | Egg | Liver | Cereals | Green Vegetables | Orange Fruits,Xeropthalmia
+Vitamin-A,Milk | Egg | Liver | Cereals | Green Vegetables | Orange Fruits,BitotSpot
+Vitamin-A,Milk | Egg | Liver | Cereals | Green Vegetables | Orange Fruits,RedEyes
+Vitamin-A,Milk | Egg | Liver | Cereals | Green Vegetables | Orange Fruits,Catract
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,NeckPatches
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,PaleSkin
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast, Pellagra
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast, WrinkledSkin
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,Hairfall
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,DamagedHair
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,SplitEnds
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,Discoloration
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,Darklines
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,SpoonShapedNails
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,BrokenNails
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,Palenails
+Vitamin-C,Fresh vegetables and fruits | supplementation,TeethDiscoloration
+Vitamin-C,Fresh vegetables and fruits | supplementation,Cavity
+Vitamin-C,Fresh vegetables and fruits | supplementation,BleedingGums
+Vitamin-C,Fresh vegetables and fruits | supplementation,Weakgums
+Vitamin-C,Fresh vegetables and fruits | supplementation,AngularCuts
+Vitamin-C,Fresh vegetables and fruits | supplementation,InflammedTongue
+Vitamin-C,Fresh vegetables and fruits | supplementation,Lipcuts
+Vitamin-C,Fresh vegetables and fruits | supplementation,MouthUlcer
+Vitamin-C,Fresh vegetables and fruits | supplementation,Discoloration
+Vitamin-D,Sunlight | milk | egg yolks,Lean
+Vitamin-D,Sunlight | milk | egg yolks,Bony
+Vitamin-D,Sunlight | milk | egg yolks,Goitre
+Vitamin-D,Sunlight | milk | egg yolks,Obesity
+Vitamin-E,Liver | eggs | nuts | seeds | cold-pressed vegetable oils | dark leafy greens | sweet potatoes | avocades and asparagus,NeckPatches
+Vitamin-E,Liver | eggs | nuts | seeds | cold-pressed vegetable oils | dark leafy greens | sweet potatoes | avocades and asparagus,PaleSkin
+Vitamin-E,Liver | eggs | nuts | seeds | cold-pressed vegetable oils | dark leafy greens | sweet potatoes | avocades and asparagus,Discoloration
+Vitamin-E,Liver | eggs | nuts | seeds | cold-pressed vegetable oils | dark leafy greens | sweet potatoes | avocades and asparagus,Darklines
+Vitamin-E,Liver | eggs | nuts | seeds | cold-pressed vegetable oils | dark leafy greens | sweet potatoes | avocades and asparagus,Catract
+Vitamin-K,Kale | green tea | turnip greens | spinach | brocolli | lettuce | cabbage | beef liver | asparagus,BleedingGums
+Vitamin-K,Kale | green tea | turnip greens | spinach | brocolli | lettuce | cabbage | beef liver | asparagus,WeakGums
+Alpha Lipoic Acid,Supplements | spinach | brocolli | beef | Brewer's yeast,Obesity
+Alpha Lipoic Acid,Supplements | spinach | brocolli | beef | Brewer's yeast,Cholestrol
+Biotin,Fish | meats | fresh vegetables | grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat germ,DamagedHair
+Biotin,Fish | meats | fresh vegetables | grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat germ,HairFall
+Biotin,Fish | meats | fresh vegetables | grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat germ,SplitEnds
+Biotin,Fish | meats | fresh vegetables | grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat germ,Discolouration
+Calcium,Dairy | wheet | molasses | Brewer's yeast | nuts | brocolli | cabbage | dark leafy greens | hazel nuts | oysters | salmon,BrokenNails
+Calcium,Dairy | wheet | molasses | Brewer's yeast | nuts | brocolli | cabbage | dark leafy greens | hazel nuts | oysters | salmon,Depression
+Calcium,Dairy | wheet | molasses | Brewer's yeast | nuts | brocolli | cabbage | dark leafy greens | hazel nuts | oysters | salmon,MuscleCramps
+Calcium,Dairy | wheet | molasses | Brewer's yeast | nuts | brocolli | cabbage | dark leafy greens | hazel nuts | oysters | salmon,AcuteAnxiety
+Carinitine,Red meats | dairy | fish | poultry | wheat | asphargus | avocades | peanut butter,Cholestrol
+Carinitine,Red meats | dairy | fish | poultry | wheat | asphargus | avocades | peanut butter,Poor Liver Function
+Carinitine,Red meats | dairy | fish | poultry | wheat | asphargus | avocades | peanut butter,Muscle Weakness
+Carinitine,Red meats | dairy | fish | poultry | wheat | asphargus | avocades | peanut butter, Impaired Glucose
+Chromium,Supplements | Brewer's yeast | grains | seafood | green beans | brocolli | prunes | nuts,Insulin Resistance
+Chromium,Supplements | Brewer's yeast | grains | seafood | green beans | brocolli | prunes | nuts,Decreased Fertility
+Chromium,Supplements | Brewer's yeast | grains | seafood | green beans | brocolli | prunes | nuts,Metabolic Syndrome
+CO Q10,Oily fish | organ meats and whole grains,High BP
+CO Q11,Oily fish | organ meats and whole grains,Congestive Heart Failure
+CO Q12,Oily fish | organ meats and whole grains,Stroke
+CO Q13,Oily fish | organ meats and whole grains,Fatigue
+Copper,Oysters | seeds | dark leafy vegetables | organ meats | legumes | grains | nuts | shell fish | chocolate | soyabeans | molasses,HairFall
+Copper,Oysters | seeds | dark leafy vegetables | organ meats | legumes | grains | nuts | shell fish | chocolate | soyabeans | molasses,Anemia
+Copper,Oysters | seeds | dark leafy vegetables | organ meats | legumes | grains | nuts | shell fish | chocolate | soyabeans | molasses,Poor Immune
+Folate,Supplements | grains | tomato juice | green vegetables,Anemia
+Folate,Supplements | grains | tomato juice | green vegetables,Fatigue
+Folate,Supplements | grains | tomato juice | green vegetables,Insomnia
+Glutathioine,Meats | ricotta | cottage cheese | yogurt | wheat gram | granoia | oat flakes,Catract
+Glutathioine,Meats | ricotta | cottage cheese | yogurt | wheat gram | granoia | oat flakes,Poor Immune
+Magnesium,Green vegetables | beans | peas | nuts | seeds | grains,Fatigue
+Magnesium,Green vegetables | beans | peas | nuts | seeds | grains,Cramps
+Magnesium,Green vegetables | beans | peas | nuts | seeds | grains,Numbness
+Panthothenate,Meat | vegetables | whole grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat gram salmon,Fatigue
+Panthothenate,Meat | vegetables | whole grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat gram salmon,PaleSkin
+Panthothenate,Meat | vegetables | whole grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat gram salmon,Discoloration
+Selenium,Brewer's yeast | wheat gram | liver butter | cold water fish | shellfish,Poor immune
+Selenium,Brewer's yeast | wheat gram | liver butter | cold water fish | shellfish,RBCs
+Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,DamagdHair
+Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,HairFall
+Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,SplitEnds
+Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,lean
+Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,bony
