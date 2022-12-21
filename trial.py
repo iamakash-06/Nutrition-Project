@@ -131,21 +131,29 @@ if st.sidebar.checkbox('Deficiency Detection'):
         test=test.drop(columns=test.columns[(test == 0).any()])
         value=test.Aadhaar.values
         value1=test.columns.values
-        for i in range(2,len(value1)):
-            new=df5.loc[df5["DSym"]==value1[i]]
-            if i==2:
-                temp=new.Nutrients.values
-            else:
-                temp=np.intersect1d(temp,new.Nutrients.values)
-            st.write("Deficiencies related to symptom",value1[i],"are",new.Nutrients.values)
-        st.write("Common deficiencies for all the given symptoms",temp)
+        if len(value1)>2:
+            for i in range(2,len(value1)):
+                var=value1[i]
+                var=var[0].upper() + var[1:]
+                new=df5.loc[df5["DSym"]==var]
+                if i==2:
+                    temp=new.Nutrients.values
+                else:
+                    temp=np.intersect1d(temp,new.Nutrients.values)
+                st.write("Deficiencies related to symptom",var,"are",new.Nutrients.values)
+            st.write("Common deficiencies for all the given symptoms",temp)
+        else:
+            st.write("No Symptoms observed")
     if st.sidebar.checkbox('Food Recommendation'):
-        for i in range(len(temp)):
-            source=df5.loc[df5["Nutrients"]==temp[i]]
-            source=source[["Nutrients","Source"]]
-            source=source.drop_duplicates()
-            for j in range(len(source)):
-                st.write("Recommended food to cut off",source.Nutrients.values[0],"deficiency are",source.Source.values[j])
+        if len(value1)>2:
+            for i in range(len(temp)):
+                source=df5.loc[df5["Nutrients"]==temp[i]]
+                source=source[["Nutrients","Source"]]
+                source=source.drop_duplicates()
+                for j in range(len(source)):
+                    st.write("Recommended food to cut off",source.Nutrients.values[0],"deficiency are",source.Source.values[j])
+        else:
+            print("No additional recommendations as the client is healthy(No symptoms observed). Maintain the same diet.")
 
 if st.sidebar.checkbox('Data Visualization'):
     if st.sidebar.checkbox('Biochemical and Anthropometric'):
@@ -284,7 +292,7 @@ if st.sidebar.checkbox('Data Visualization'):
             fig5.update_layout(title='Haemoglobin Value - Men - 9-2022')
             fig5.update_traces(legendgrouptitle_text="Range")
             st.plotly_chart(fig5, use_container_width=True)
-        elif 'Haemoglobin Range for Women (gm/dL)':
+        elif option =='Haemoglobin Range for Women (gm/dL)':
             fig1=go.Figure(data=go.Scattergl(x=df_rl_2["Age Group - Women"],y=df_rl_2["Min"],mode="markers",marker_color="green"))
             fig2=go.Figure(data=go.Scattergl(x=df_rl_2["Age Group - Women"],y=df_rl_2["Max"],mode="markers",marker_color="red"))
             fig1.update_traces(name="Minimum",hovertemplate="<br>".join(["Age_Group : %{x}","Haemoglobin (gm/dL): %{y}"]))
@@ -294,7 +302,7 @@ if st.sidebar.checkbox('Data Visualization'):
             fig3.update_layout(title='Haemoglobin Range for Women (gm/dL)')
             fig3.update_traces(legendgrouptitle_text="Range")
             st.plotly_chart(fig3, use_container_width=True)
-        elif 'Haemoglobin Value - Women - 8-2022':
+        elif option =='Haemoglobin Value - Women - 8-2022':
             fig1=go.Figure(data=go.Scattergl(x=exw,y=neww,mode="lines",marker_color="green"))
             fig2=go.Figure(data=go.Scattergl(x=exw,y=neww_min,mode="lines",marker_color="red"))
             fig3=go.Figure(data=go.Scattergl(x=new_df_2_1["Age"],y=new_df_2_1["Haemoglobin"],mode="markers",marker_color="violet"))
@@ -306,7 +314,7 @@ if st.sidebar.checkbox('Data Visualization'):
             fig5.update_layout(title='Haemoglobin Value - Women - 8-2022')
             fig5.update_traces(legendgrouptitle_text="Range")
             st.plotly_chart(fig5, use_container_width=True)
-        elif 'Haemoglobin Value - Women - 9-2022':
+        elif option =='Haemoglobin Value - Women - 9-2022':
             fig1=go.Figure(data=go.Scattergl(x=exw,y=neww,mode="lines",marker_color="green"))
             fig2=go.Figure(data=go.Scattergl(x=exw,y=neww_min,mode="lines",marker_color="red"))
             fig3=go.Figure(data=go.Scattergl(x=new_df_2_2["Age"],y=new_df_2_2["Haemoglobin"],mode="markers",marker_color="violet"))
@@ -318,7 +326,7 @@ if st.sidebar.checkbox('Data Visualization'):
             fig5.update_layout(title='Haemoglobin Value - Women - 9-2022')
             fig5.update_traces(legendgrouptitle_text="Range")
             st.plotly_chart(fig5, use_container_width=True)
-        elif 'Average Haemoglobin value by age - Male - 8-2022':
+        elif option =='Average Haemoglobin value by age - Male - 8-2022':
             fig = go.Figure()
             fig.add_trace(go.Bar(
                 x=df_grp_1["Age"],
@@ -337,7 +345,7 @@ if st.sidebar.checkbox('Data Visualization'):
             fig.update_layout(barmode='group', xaxis_tickangle=-45)
             fig.update_layout(title='Average Haemoglobin value by age - Male - 8-2022')
             st.plotly_chart(fig, use_container_width=True)
-        elif 'Average Haemoglobin value by age - Male - 9-2022':
+        elif option =='Average Haemoglobin value by age - Male - 9-2022':
             fig = go.Figure()
             fig.add_trace(go.Bar(
                 x=df_grp_2["Age"],
@@ -348,13 +356,13 @@ if st.sidebar.checkbox('Data Visualization'):
             fig.update_layout(barmode='group', xaxis_tickangle=-45)
             fig.update_layout(title='Average Haemoglobin value by age - Male - 9-2022')
             st.plotly_chart(fig, use_container_width=True)
-        elif 'Average Haemoglobin value by age - Female - 8-2022':
+        elif option =='Average Haemoglobin value by age - Female - 8-2022':
             fig = go.Figure()
             fig.add_trace(go.Bar(
                 x = df_grp_3["Age"],
                 y = df_grp_3["Haemoglobin"],
                 name = 'Average Haemoglobin value by age - Female - 8 - 2022',
-                marker_color = 'indinared'
+                marker_color = 'olive'
             ))
             fig.update_layout(barmode='group', xaxis_tickangle=-45)
             fig.update_layout(title='Average Haemoglobin value by age - Female - 8- 2022')

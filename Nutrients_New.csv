@@ -5,8 +5,8 @@ Vitamin-A,Milk | Egg | Liver | Cereals | Green Vegetables | Orange Fruits,RedEye
 Vitamin-A,Milk | Egg | Liver | Cereals | Green Vegetables | Orange Fruits,Catract
 Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,NeckPatches
 Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,PaleSkin
-Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast, Pellagra
-Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast, WrinkledSkin
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,Pellagra
+Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,WrinkledSkin
 Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,Hairfall
 Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,DamagedHair
 Vitamin-B,Meat | seafood | poultry | eggs | dairy products | legumes | leafy greens | seeds and fortified foods | such as breakfast cereal and nutritional yeast,SplitEnds
@@ -21,7 +21,7 @@ Vitamin-C,Fresh vegetables and fruits | supplementation,BleedingGums
 Vitamin-C,Fresh vegetables and fruits | supplementation,Weakgums
 Vitamin-C,Fresh vegetables and fruits | supplementation,AngularCuts
 Vitamin-C,Fresh vegetables and fruits | supplementation,InflammedTongue
-Vitamin-C,Fresh vegetables and fruits | supplementation,Lipcuts
+Vitamin-C,Fresh vegetables and fruits | supplementation,LipCuts
 Vitamin-C,Fresh vegetables and fruits | supplementation,MouthUlcer
 Vitamin-C,Fresh vegetables and fruits | supplementation,Discoloration
 Vitamin-D,Sunlight | milk | egg yolks,Lean
@@ -72,7 +72,7 @@ Panthothenate,Meat | vegetables | whole grains | legumes | lentils | egg yolks |
 Panthothenate,Meat | vegetables | whole grains | legumes | lentils | egg yolks | milk | sweet potatoes | seeds | nuts | wheat gram salmon,Discoloration
 Selenium,Brewer's yeast | wheat gram | liver butter | cold water fish | shellfish,Poor immune
 Selenium,Brewer's yeast | wheat gram | liver butter | cold water fish | shellfish,RBCs
-Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,DamagdHair
+Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,DamagedHair
 Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,HairFall
 Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,SplitEnds
 Zinc,Oyesters | shellfish | meat and poultry | legumes | vegetables | nuts and seeds | whole grains | milk and dairy foods,lean
